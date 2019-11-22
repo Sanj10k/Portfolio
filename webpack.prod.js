@@ -20,8 +20,6 @@ module.exports = merge(common, {
       new HtmlWebpackPlugin({
         template: './src/template.html',
         favicon: './src/assets/favicon.png',
-        facerecog: './src/assets/facerecog.png',
-        profile: './src/assets/profile.jpg',
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: true,
